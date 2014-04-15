@@ -1,1 +1,1 @@
-Hello Git world, i'm a newbie.
+Hello Git world, i'm a newbie, nice to meet you!
