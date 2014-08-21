@@ -49,13 +49,30 @@
 	font-size:14pt;
 }
 
-#container #search_date{
-	padding
+#container #action_to_project{
+	top:-50px;
+}
+
+#container .project_list{
+	border-radius:8px;
+}
+
+#container #projectList{
+	font-size:30pt;
+	width:30%;
+}
+
+#container #show_specification{
+	font-size:10pt;
+	width:50%;
+	max-width:600px;
 }
 
 #container input{
-	width:100px;
+	width:250px;
 	font-size:20pt;
+	text-align:center;
+	border-radius: 50px;	
 }
 
 #container a:hover{
@@ -66,6 +83,12 @@
 	width:150px;
 }
 
+#container #action_to_info a{
+	padding:15px;
+	border-radius: 5px;
+}
+
 div.content {
 	margin-top: 8px;
 }
+

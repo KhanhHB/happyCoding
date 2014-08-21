@@ -4,6 +4,14 @@
   <title>Industry Engagement</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+  <link rel="stylesheet" href="dashboards/DatePicker/jquery-ui.css">
+  <script src="dashboards/DatePicker/jquery-1.10.2.js"></script>
+  <script src="dashboards/DatePicker/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 </head>
 
 <body>
@@ -57,19 +65,49 @@
     <!--********************-->
     <div id="container" class="shadow to_left">
         <h3>Newly  Submitted</h3>
-		<div id="search_date" class="to_left">
-			<input type="text" value="Date"  maxlength=2 id="date">
-			<input type="text" value="Month" maxlength=2 id="month">
-			<input type="text" value="Year" maxlength=4 id="year" >
+		<div id="search_date" class="container_inner">
+			<input class="to_left" type="text" id="datepicker" value="Click To Pick a Date">
         </div>
 			
-		<div class="button to_right">
+		<div id="action_to_project" class="button to_right">
           <ul>
             <li><a href="#">Accept</a></li>
             <li><a href="#">Reject</a></li>
             <li><a href="#">Suspend</a></li>
           </ul>
         </div>
+		<div >
+			<select id="projectList" class="project_list to_left" name="list_box_name" size="5">
+				<option value="project1">project1</option>
+				<option value="project2">project2</option>
+				<option value="project3">project3</option>
+				<option value="project4">project4</option>
+				<option value="project5">project5</option>
+				<option value="project6">project6</option>
+				<option value="project7">project7</option>
+				<option value="project8">project8</option>
+				<option value="project9">project9</option>
+				<option value="project10">project10</option>
+				<option value="project11">project11</option>
+				<option value="project12">project12</option>
+				<option value="project13">project13</option>
+				<option value="project14">project14</option>
+				<option value="project15">project15</option>
+			</select>
+		</div>
+		
+		<div >
+			<textarea id="show_specification" class="project_list to_right" rows="13">
+				There are some project specification....
+			</textarea>
+		</div>
+		
+		<div >
+			<textarea id="industry_iteration" class="project_list to_left" rows="13">
+				There are some Industry Iteration....
+			</textarea>
+		</div>
+		
 		<div id="action_to_info" class="button to_right">
           <ul>
             <li><a href="#">Discard</a></li>
