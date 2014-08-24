@@ -16,21 +16,31 @@ label{
 	}
 
 fieldset {
-	padding:30px;
+	padding: 12px;
 	border: none;
 	box-shadow: 0px 0px 2px 3px rgba(122,153,26, 0.1);
 }
 
+select {
+	margin:auto;
+	display:block;
+	width: 100px;
+}
+
 legend {
-	padding:7px;
+	padding:5px;
 	background-color: #fff;
 	color: #555555;
 	box-shadow: 0px 0px 2px 4px rgba(122,153,26, 0.1);
 	}
 
+textarea {	
+	margin:auto;
+	display:block;
+}
 /* ----------------------------------------------General-----------------------------------------*/
 .forms {
-	margin: 25px auto;
+	margin: 21px auto;
 	background: #fff;
 	padding: 20px 30px;
 	box-shadow: 
@@ -42,7 +52,7 @@ legend {
 .titles h3 {
     color: #555555;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 5px;
 	}
 
 .inputs #separator {
@@ -164,6 +174,7 @@ input[type="file"] {
 
 #subPro {
 	width: 65%;
+	height: 482px;
 	clear:both;
 	}
 
@@ -173,7 +184,7 @@ input[type="file"] {
 	}	
 
 .rightPart{
-	width:40%;
+	width:50%;
 	height:330px;
 	}
 
@@ -183,5 +194,12 @@ input[type="file"] {
 	clear:both;
 	}
 #subBtn {
-	width: 45%;
-}
+	width: 50%;
+	}
+
+#subBtn a {
+	width: 200px;
+	border-radius: 3px;
+	}
+
+

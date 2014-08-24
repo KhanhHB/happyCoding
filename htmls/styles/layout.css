@@ -32,18 +32,18 @@ img {margin:0; padding:0; border:none; width:100%; height:100%;}
     display: block;
     width: 100px;
     font-weight: bold;
-    color: #B0ABAB;
+    color: white;
     background-color: #333333;
     text-align: center;
     padding: 4px;
     text-decoration: none;
 	}
 .button a:hover{
-    background-color: #7A991A;
+    background-color: #ABDA0F;
     color:#000;
 	}
 .button a:active {
-    background-color: #ABDA0F;
+    background-color: #7A991A;
     }
 
 div.wrapper h1 {	
@@ -52,6 +52,11 @@ div.wrapper h1 {
 	font-size:25px;
 	font-weight:normal;
 	}
+.general_box {
+	margin:auto;
+	padding: 20px;
+}
+
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 .wrapper{
@@ -65,7 +70,7 @@ div.wrapper h1 {
 .banner{
 	color:#F2EEEE; 
 	background-color:#191919; 
-	border-top:10px solid #7A991A;
+	border-top:8px solid #7A991A;
 	}
 
 .navigation{
@@ -113,6 +118,7 @@ div.wrapper h1 {
 	color: #000;
 	min-height: 500px;
 }
+
 #news p {
 	padding: 20px;
 }

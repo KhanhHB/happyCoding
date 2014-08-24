@@ -3,10 +3,10 @@
 <head>
   <title>Industry Engagement</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <link rel="stylesheet" href="styles/layout.css" type="text/css" />
-  <link rel="stylesheet" href="projects/DatePicker/jquery-ui.css">
-  <script src="projects/DatePicker/jquery-1.10.2.js"></script>
-  <script src="projects/DatePicker/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+  <link rel="stylesheet" href="DatePicker/jquery-ui.css">
+  <script src="DatePicker/jquery-1.10.2.js"></script>
+  <script src="DatePicker/jquery-ui.js"></script>
   <script>
   $(function() {
     $( "#datepicker" ).datepicker();
@@ -14,7 +14,7 @@
   </script>
 
 </head>
-
+  
 <body>
   <!--##############################################################-->
    <div class="wrapper navigation">
@@ -28,9 +28,9 @@
 
         <div id="menu" class="button to_left">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="Process_Items_in_Cart.html">Process Cart</a></li>
+            <li><a href="#">Process Cart</a></li>
           </ul>
         </div>
       </div>
@@ -43,11 +43,11 @@
 
       <div id="tabs" class="to_right button">
         <ul>
-          <li><a id="in_focus" href="dashboard.html">Newly submitted</a></li>
-          <li><a href="projects/Accepted.html">Accepted</a></li>
-          <li><a href="projects/Rejected.html">Rejected</a></li>
-          <li><a href="projects/Pending.html">Pending</a></li>
-          <li><a href="projects/Past_projects.html">Past projects</a></li>
+          <li><a id="in_focus" href="../dashboard.html">Newly submitted</a></li>
+          <li><a href="Accepted.html">Accepted</a></li>
+          <li><a href="Rejected.html">Rejected</a></li>
+          <li><a href="Pending.html">Pending</a></li>
+          <li><a href="Past_projects.html">Past projects</a></li>
         </ul>
       </div>
     </div>
@@ -58,12 +58,11 @@
       <div class="flex_height">
         <div id="action_to_project" class="to_right button">
           <ul>
-            <li><a href="#">Accept</a></li>
-            <li><a href="#">Reject</a></li>
+            <li><a href="#">Remove</a></li>
             <li><a href="#">Suspend</a></li>
           </ul>
         </div>
-		  </div>
+      </div>
 
       <div id="project_showing" class="general_box flex_height shadow"> 
         <div class="to_left" id="project_list">
@@ -105,13 +104,13 @@
 
       <!--*********************************************-->
       <div id="communication" id="general_box" class="shadow flex_height">
-		    <div id="message_box" class="to_left">
+        <div id="message_box" class="to_left">
           <input class="to_left" type="text" placeholder="From: ">
           <input class="to_right" type="text" placeholder="To: ">
           <textarea id="industry_interaction" rows="13">Messages...</textarea>
         </div>
 
-  		  <div id="action_to_message" class="to_right button">
+        <div id="action_to_message" class="to_right button">
           <ul>
             <li><a href="#">Discard</a></li>
             <li><a href="#">Draft</a></li>
