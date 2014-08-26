@@ -32,7 +32,7 @@ div.content {
 
 /******************************/
 
-#communication, #project_showing {
+#communication, #project_showing , #pick_to_communicate{
 	margin-bottom: 20px;
 	padding: 10px;
 	border-radius: 4px;
@@ -40,6 +40,14 @@ div.content {
 
 #communication {
 	background-color: #424242;
+	width:75%;
+	height:180px;
+	}
+	
+#pick_to_communicate {
+	background-color: #424242;
+	width:20%;
+	height:180px;
 	}
 
 
@@ -75,12 +83,17 @@ div.content {
 	}
 
 /* -------------- communication --------------*/
+#pick_to_communicate select {
+	width: 100%;
+	margin-top: 10px;
+	}
+
 
 #action_to_message {
 	width: 14%;
 	padding: 5px;
 	}
-
+	
 #action_to_message a{
 	padding:11px;
 	width: 80px;
@@ -93,7 +106,11 @@ div.content {
 #message_box textarea {
 	margin-top: 30px;
 	width: 96%;
-	height: 75px;
+	max-width:96%;
+	min-width:96%;
+	height: 125px;
+	max-height:125px;
+	min-height:125px;
 	}
 
 #message_box input {
@@ -104,6 +121,8 @@ div.content {
 	width: 48%;
 	padding: 3px;
 	}
+	
+
 
 /*----------------------- Process projects in cart ---------------*/
 #edit_specification {
