@@ -40,9 +40,18 @@ div.content {
 
 #communication {
 	background-color: #424242;
-	width:75%;
+	width:98%;
 	height:180px;
 	}
+	
+#communication_extra {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #424242;
+	height:180px;
+	width:75%;
+}
 	
 #pick_to_communicate {
 	background-color: #424242;
@@ -121,7 +130,6 @@ div.content {
 	width: 48%;
 	padding: 3px;
 	}
-	
 
 
 /*----------------------- Process projects in cart ---------------*/
